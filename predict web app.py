@@ -8,9 +8,10 @@ Created on Thu Oct 30 01:39:51 2025
 import numpy as np
 import pickle
 import streamlit as st
+import joblib
 
 ## loading the saved model
-loaded_model = pickle.load(open('C:/Users/karti/OneDrive/Model training/Heart_disease_prediction/heart_disease_model.sav', 'rb'))
+loaded_model = joblib.load(open('C:/Users/karti/OneDrive/Model training/Heart_disease_prediction/heart_disease_model.sav', 'rb'))
 
 # function for prediction
 
