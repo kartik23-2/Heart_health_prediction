@@ -11,7 +11,7 @@ import streamlit as st
 import joblib
 
 ## loading the saved model
-loaded_model = joblib.load(open('C:/Users/karti/OneDrive/Model training/Heart_disease_prediction/heart_disease_model.sav', 'rb'))
+loaded_model = joblib.load(open('heart_disease_model.pkl', 'rb'))
 
 # function for prediction
 
